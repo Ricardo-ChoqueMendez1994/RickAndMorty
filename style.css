@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 30px auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(184, 184, 185) 0%, rgb(169, 170, 170) 11%, rgba(153,155,165,1) 13%, rgb(132, 136, 136) 100%);
+}
+
+#resultado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px 10px;
+    margin-left: 12vh;
+}
+
+.header {
+    width: 95%;
+    height: 12vh;
+    margin-left: 5vh;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+.title {
+    padding-left: 75vh;
+    color: gray;
+    font-size: 4vh;
+}
+
+.page {
+    margin-bottom: 7vh;
+    margin-top: 7vh;
+    color: gainsboro;
+}
+
+#pagina {
+    border: solid 3px gainsboro;
+    border-radius: 7px;
+}
+
+.card {
+    border: solid 3px rgb(8, 8, 8);
+}
